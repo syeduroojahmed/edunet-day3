@@ -1,0 +1,43 @@
+z<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x3 Image Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+            gap: 5px; /* Spacing between grid items */
+            justify-items: center; /* Center images horizontally */
+            align-items: center; /* Center images vertically */
+        }
+        .grid-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover; /* Ensure images fit the box proportionally */
+            border: 2px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>3x3 Image Grid using CSS Grid</h1>
+    <div class="grid-container">
+        <img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg" alt="Image 1">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRejvqw2mv5faxPv4cFN63ej5rkenrSJZFQcA_5a_8rTzORckHpgWSt4kN_iME0j7TsfLA&usqp=CAU" alt="Image 2">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_DUDyqZ-M3gLokWJK4k9OAV7tLdCLkC940QSZn_ZuObcceZOpToAiyrp_FlHmC4zTy8Q&usqp=CAU" alt="Image 3">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOqWv7qiaouKHyORlyLL_pnxFjeJ38iuHUJohMYeAl6Vd9qmjedzuLVgdg3s3usqa-HLc&usqp=CAU" alt="Image 4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjh7vD-MGdt8p5ePKmqkMh6Xhiq8DiGOZiq2vblFDzBOZ8DnU4tbBQ_CXi9B9QE6PRP2I&usqp=CAU" alt="Image 5">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbZ5MKrze7h4Ere896oLXACK_TT3xXBR21Grw10-RER4iRx2yIYswranUFA8jZyaY1GSo&usqp=CAU" alt="Image 6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS93ninT4YOJq7Q-mEX5vUscnfPx3pynwF2m0Egh-j--UBdB68TUMb02gWCECXhouil3jI&usqp=CAU" alt="Image 7">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqzudgkk_v3LxXXkOsUcvJxiHR9gzBjQl3-26VN9p_CHOUBYIjjMikBAR1ZvDfQj9RBLU&usqp=CAU" alt="Image 8">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZUB32n0RfK3811tAUYB9bIPBK-lWX5uN7TzIHRXMe5c0tyQ1RHcZpE05c2TGqoCVpPrU&usqp=CAU" alt="Image 9">
+    </div>
+</body>
+</html>
